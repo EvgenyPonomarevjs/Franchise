@@ -1,11 +1,10 @@
-a {
-    text-decoration: none;
-}
-ul {
-    list-style-type: none;
-}
+
 body {
     background-color: #070939;
+}
+.header {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #101256;
 }
 .wrap-dark {
     width: 100%;
