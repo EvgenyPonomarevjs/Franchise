@@ -33,3 +33,16 @@
   input:checked[type="checkbox"]::before {
     left: 39px;
   }
+  .consultation {
+    margin-top: 42px;
+    width: 310px;
+    height: 62px;
+    background: linear-gradient(179.8deg, #724927 -28.79%, #9F743A -1.2%, #FDFEB1 40.19%, #FFD174 56.57%, #8E5218 93.65%, #A35F20 129%);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152%;
+    color: #080A42;
+    cursor: pointer;
+}

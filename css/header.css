@@ -1,6 +1,10 @@
 body {
     background-color: #070939;
 }
+.header {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #101256;
+}
 .wrap-dark {
     width: 100%;
     width: 1200px;
