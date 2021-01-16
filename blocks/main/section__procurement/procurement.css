@@ -1,0 +1,10 @@
+.procurement {
+    display: flex;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 643px;
+    background: #101256;
+    box-shadow: 0px 30px 40px rgba(0, 1, 32, 0.35);
+    border-radius: 10px;
+    margin-top: 100px;
+}
