@@ -1,0 +1,32 @@
+.blocks {
+    display: flex;
+}
+.blocks__content-1 {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 48px;
+    width: 478px;
+    height: 398px;
+    margin-left: 0px;
+}
+.item_head-1 {
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    margin-bottom: 21px;
+}
+.item_paragraph-1 {
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 35px;
+}
+.blocks__content-2 {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 48px;
+    width: 683px;
+    height: 398px;
+    margin-left: 40px;
+}
