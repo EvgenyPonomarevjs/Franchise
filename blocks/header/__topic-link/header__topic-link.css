@@ -3,3 +3,9 @@
   line-height: 1.2;
   font-weight: 400;
 }
+.header__topic-link_type_white {
+    margin-right: 15px;
+}
+.header__topic-link_type_dark {
+    margin-left: 15px;
+}
