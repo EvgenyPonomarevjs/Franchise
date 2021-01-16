@@ -1,88 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <title>ProТендер</title>
 </head>
+
 <body>
     <div class="wrap-dark">
         <header class="header">
             <div class="header__topic">
-                <a class="header__topic-link header__topic-link_type_white" href="#">Светлая</a>  
-                <input class="header__topic-checkbox" type="checkbox">
-                <a class="header__topic-link header__topic-link_type_dark" href="#">Темная</a>   
-            </div>
-            <!-- <div class="header__basic">
-                <div class="logo">
-                    <a href="#"><img src="./img/logo1.png" alt="logo"></a>
+                <div class="header__topic-link_white">
+                    <a class="header__topic-link_type_white" href="#">Светлая</a>
                 </div>
+                <div class="header__topic-input">
+                    <input class="header__topic-checkbox" type="checkbox">
+                </div>
+                <div class="header__topic-link_dark">
+                    <a class="header__topic-link_type_dark" href="#">Темная</a>
+                </div>
+            </div>
+            <div class="header__basic">
+                <a class="header-logo" href="#"><img src="./img/logo1.png" alt="logo"></a>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li><a class="nav_link" href="#">О компании</a></li>
-                        <li><a class="nav_link" href="#">Госзакупки</a></li>
-                        <li><a class="nav_link" href="#">Команда</a></li>
-                        <li><a class="nav_link" href="#">Контакты</a></li>
+                        <li><a class="nav__list-link" href="#">О компании</a></li>
+                        <li><a class="nav__list-link" href="#">Госзакупки</a></li>
+                        <li><a class="nav__list-link" href="#">Команда</a></li>
+                        <li><a class="nav__list-link" href="#">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="header-tel">
-                    <a class="tel" href="tel: 8 800 201 16 29">8 800 201 16 29</a>
+                <div class="header__tel">
+                    <a class="header__tel-link" href="tel: 8 800 201 16 29">8 800 201 16 29</a>
                 </div>
-            </div> -->
+            </div>
         </header>
-        <!-- <div class="wrap-content">
-            <div class="main">
-                <div class="main_content">
-                    <div class="hed">
+        <div class="wrap-content">
+            <main class="main">
+                <div class="main__content">
+                    <div class="main__content-hed">
                         <div class="hed_h1">
-                            <h1>Выведем на доход в <span class="gold">1 000 000</span> на госзакупках <span class="gold"> за 3 месяца</span> <span class="h1_thin">или вернём вам деньги</span></h1>
+                            <h1>Выведем на доход в <span class="gold">1 000 000</span> на госзакупках <span
+                                    class="gold"> за 3 месяца</span> <span class="h1_thin">или вернём вам деньги</span>
+                            </h1>
                         </div>
                         <div class="hed_text">
-                            <span>Мы гарантируем окупаемость по договору, поэтому вы в любом случае ЗАРАБОТАЕТЕ!</span>
+                            <span>Мы гарантируем окупаемость по договору, поэтому вы в любом случае заработаете!</span>
                         </div>
                         <form action="">
                             <button class="consultation">Получить консультацию</button>
                         </form>
                     </div>
                     <section class="group">
-                        <div class="group_block">
+                        <div class="group__block">
                             <div class="block">
-                                <div class="vector">
-                                    <img src="./img/vector.png"class="vector_img">
+                                <div class="block__vector">
+                                    <img src="./img/vector.png" class="vector_img">
                                 </div>
                                 <div class="block_item">
-                                    <h2 class="item_head">Быстрый старт</h2>
-                                    <p class="item_paragraph">Ваш бизнес начнется уже с первых дней нашего сотрудничества</p>
+                                    <h2 class="block__item_head">Быстрый старт</h2>
+                                    <p class="block__item_paragraph block__develop">Ваш бизнес начнется уже с первых
+                                        дней нашего сотрудничества</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="group_block mar">
+                        <div class="group__block">
                             <div class="block">
-                                <div class="vector">
-                                    <img src="./img/vector.png"class="vector_img">
+                                <div class="block__vector">
+                                    <img src="./img/vector.png" class="vector_img">
                                 </div>
                                 <div class="block_item">
-                                    <h2 class="item_head">Обучение на практике</h2>
-                                <p class="item_paragraph">С вами будет команда экспертов на протяжении всего партнерства</p>
+                                    <h2 class="block__item_head">Обучение на практике</h2>
+                                    <p class="block__item_paragraph block__develop">С вами будет команда экспертов на
+                                        протяжении всего партнерства</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="group_block mar">
+                        <div class="group__block">
                             <div class="block">
-                                <div class="vector">
-                                    <img src="./img/vector.png"class="vector_img">
+                                <div class="block__vector">
+                                    <img src="./img/vector.png" class="vector_img">
                                 </div>
                                 <div class="block_item">
-                                    <h2 class="item_head">Гарантии результата</h2>
-                                    <p class="item_paragraph">Даем гарантии на результат или возвращаем вам деньги</p>
+                                    <h2 class="block__item_head">Гарантии результата</h2>
+                                    <p class="block__item_paragraph block__develop">Даем гарантии на результат или
+                                        возвращаем вам деньги</p>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-            </div>
-        </div> -->
+                <section class="blocks">
+                    <div class="group__block blocks__content">
+                        <div class="block blocks__content-1">
+                            <h2 class="block__item_head item_head-1">Миссия</h2>
+                            <p class="block__item_paragraph item_paragraph-1">Повышение уровня жизни людей посредсвом
+                                оказания помощи им в обретении финансовой свободы, стабильности и защищенности. </p>
+                        </div>
+                    </div>
+                    <div class="group__block blocks__content">
+                        <div class="block blocks__content-2">
+                            <h2 class="block__item_head item_head-1">Ценности</h2>
+                            <p class="block__item_paragraph item_paragraph-1">Мы строим свою работу профессионально,
+                                честно и открыто. Нет шаблонным решениям – только индивидуальный подход к каждому
+                                партнеру для достижения поставленных целей. Мы за экологичный бизнес!</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="block__procurement">
+                    <div class="procurement">
+                        <div class="procurement__text">
+                            <h2 class="procurement__text_item">Что такое госзакупки?</h2>
+                            <p class="procurement__text_paragraph">Государственные закупки - это система размещения заказов на поставку товаров или оказания услуг для муниципальных или государственных нужд. Номенклатура их огромна - от канцелярских скрепок до крупных промышленных объектов. Проведение таких закупок положительно сказывается как на развитии самого государства, так и на развитии бизнеса в целом. Государство получает необходимый товар/услугу на выгодных условиях, а поставщик получает деньги. Поставщиком (участником закупок) может стать любой желающий.</p>
+
+                        </div>
+                        <img class="procurement__img" src="./img/gerb.png" alt="Герб">
+                    </div>
+                </section>
+            </main>
+        </div>
     </div>
 </body>
+
 </html>
