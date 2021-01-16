@@ -1,0 +1,7 @@
+.header__topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    margin: 0 auto;
+}
