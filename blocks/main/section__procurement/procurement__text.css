@@ -1,0 +1,25 @@
+.procurement__text {
+    padding-top: 80px;
+    padding-left: 68px;
+}
+.procurement__text_item {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.procurement__text_paragraph {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.procurement__img {
+    width: 483px;
+    height: 483px;
+    padding-top: 80px;
+}
