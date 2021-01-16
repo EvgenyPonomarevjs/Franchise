@@ -1,0 +1,19 @@
+.hed_h1 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 750px;
+    height: 225px;
+}
+.gold {
+    background-image: linear-gradient(43deg, #724927 0%, #9F743A 16.67%, #FDFEB1 41.67%, #FFD174 51.56%, #8E5218 73.96%, #A35F20 95.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .60s;
+    text-shadow: 0px 3px 2px rgba(0, 1, 32, 0.25);
+    text-transform: uppercase;
+}

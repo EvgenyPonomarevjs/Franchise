@@ -1,0 +1,39 @@
+.header__basic {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-bottom: 53px;
+    border-bottom: 1px solid #101256;
+}
+.header-logo {
+   display: block; 
+}
+.nav__list {
+    display: flex;
+}
+.nav__list-link {
+    margin-right: 52px;
+    color: #ffffff;    
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    
+}
+.header__tel {
+    width: 175px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #ffd174;
+    text-align: center;
+}
+.header__tel-link {
+    display: block;
+    margin-top: 16px;
+    color: #ffffff;   
+}
