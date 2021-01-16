@@ -1,0 +1,13 @@
+@import url(./__topic/header__topic.css); /*элемент topic блока хедер*/
+@import url(./__topic-checkbox/header__topic-checkbox.css); /*элемент topic-checkbox блока хедер*/
+@import url(./__topic-link/header__topic-link.css);/*элемент topic-link блока хедер*/
+@import url(./__topic-link/_type/header__topic-link_type_dark.css); /*  модификатор*/
+@import url(./__topic-link/_type/header__topic-link_type_white.css); /*  модификатор*/
+/* блок - хедер */
+.header {
+  width: 100%;
+  background-color: #c4c4c4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
