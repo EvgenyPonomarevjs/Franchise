@@ -10,7 +10,7 @@
     height: 225px;
 }
 .gold {
-    background-image: linear-gradient(43deg, #724927 0%, #9F743A 16.67%, #FDFEB1 41.67%, #FFD174 51.56%, #8E5218 73.96%, #A35F20 95.31%);
+    background: linear-gradient(179.8deg, #724927 -18.22%, #9F743A 3.08%, #FDFEB1 35.04%, #FFD174 47.69%, #8E5218 76.33%, #A35F20 103.62%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all .60s;
