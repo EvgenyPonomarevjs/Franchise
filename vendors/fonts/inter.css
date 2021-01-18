@@ -33,3 +33,9 @@
   font-display: swap;
   src: url("Roboto-Thin.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Arya";
+  font-style: normal;
+  font-display: swap;
+  src: url("Arya-Bold.woff2") format("woff2");
+}
