@@ -1,0 +1,13 @@
+@keyframes animate-item {
+  from {
+      transform: translate(100%, 0);
+      opacity: 0;
+  }
+  to {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+}
+.animate-active {
+  animation: animate-item 3s;
+}
