@@ -1,88 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <title>ProТендер</title>
+
 </head>
+
 <body>
     <div class="wrap-dark">
         <header class="header">
             <div class="header__topic">
-                <a class="header__topic-link header__topic-link_type_white" href="#">Светлая</a>  
-                <input class="header__topic-checkbox" type="checkbox">
-                <a class="header__topic-link header__topic-link_type_dark" href="#">Темная</a>   
-            </div>
-            <!-- <div class="header__basic">
-                <div class="logo">
-                    <a href="#"><img src="./img/logo1.png" alt="logo"></a>
+                <a class="header__topic-link_type_white" href="#">Светлая</a>
+                <div class="header__topic-input">
+                    <input class="header__topic-checkbox" type="checkbox">
                 </div>
+                <div class="header__topic-link_dark">
+                    <a class="header__topic-link_type_dark" href="#">Темная</a>
+                </div>
+            </div>
+            <div class="header__basic">
+                <a class="header-logo" href="#"><img src="./img/logo1.png" alt="logo"></a>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li><a class="nav_link" href="#">О компании</a></li>
-                        <li><a class="nav_link" href="#">Госзакупки</a></li>
-                        <li><a class="nav_link" href="#">Команда</a></li>
-                        <li><a class="nav_link" href="#">Контакты</a></li>
+                        <li><a class="nav__list-link" href="#">О компании</a></li>
+                        <li><a class="nav__list-link" href="#">Госзакупки</a></li>
+                        <li><a class="nav__list-link" href="#">Команда</a></li>
+                        <li><a class="nav__list-link" href="#">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="header-tel">
-                    <a class="tel" href="tel: 8 800 201 16 29">8 800 201 16 29</a>
+                <div class="header__tel">
+                    <a class="header__tel-link" href="tel:88002011629">8 800 201 16 29</a>
                 </div>
-            </div> -->
+            </div>
         </header>
-        <!-- <div class="wrap-content">
-            <div class="main">
-                <div class="main_content">
-                    <div class="hed">
+        <div class="wrap-content">
+            <main class="main">
+                <div class="main__content">
+                    <div class="main__content-hed">
                         <div class="hed_h1">
-                            <h1>Выведем на доход в <span class="gold">1 000 000</span> на госзакупках <span class="gold"> за 3 месяца</span> <span class="h1_thin">или вернём вам деньги</span></h1>
+                            <h1>Выведем на доход в <span class="gold">1 000 000</span> на госзакупках <span
+                                    class="gold"> за 3 месяца</span> <span class="h1_thin">или вернём вам деньги</span>
+                            </h1>
                         </div>
                         <div class="hed_text">
-                            <span>Мы гарантируем окупаемость по договору, поэтому вы в любом случае ЗАРАБОТАЕТЕ!</span>
+                            <span>Мы гарантируем окупаемость по договору, поэтому вы в любом случае заработаете!</span>
                         </div>
                         <form action="">
                             <button class="consultation">Получить консультацию</button>
                         </form>
                     </div>
                     <section class="group">
-                        <div class="group_block">
+                        <div class="group__block">
                             <div class="block">
-                                <div class="vector">
-                                    <img src="./img/vector.png"class="vector_img">
+                                <div class="block__vector">
+                                    <img src="./img/vector.png" class="vector_img">
                                 </div>
                                 <div class="block_item">
-                                    <h2 class="item_head">Быстрый старт</h2>
-                                    <p class="item_paragraph">Ваш бизнес начнется уже с первых дней нашего сотрудничества</p>
+                                    <h2 class="block__item_head animate">Быстрый старт</h2>
+                                    <p class="block__item_paragraph block__develop">Ваш бизнес начнется уже с первых
+                                        дней нашего сотрудничества</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="group_block mar">
+                        <div class="group__block">
                             <div class="block">
-                                <div class="vector">
-                                    <img src="./img/vector.png"class="vector_img">
+                                <div class="block__vector">
+                                    <img src="./img/vector.png" class="vector_img">
                                 </div>
                                 <div class="block_item">
-                                    <h2 class="item_head">Обучение на практике</h2>
-                                <p class="item_paragraph">С вами будет команда экспертов на протяжении всего партнерства</p>
+                                    <h2 class="block__item_head animate">Обучение на практике</h2>
+                                    <p class="block__item_paragraph block__develop">С вами будет команда экспертов на
+                                        протяжении всего партнерства</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="group_block mar">
+                        <div class="group__block">
                             <div class="block">
-                                <div class="vector">
-                                    <img src="./img/vector.png"class="vector_img">
+                                <div class="block__vector">
+                                    <img src="./img/vector.png" class="vector_img animate">
                                 </div>
                                 <div class="block_item">
-                                    <h2 class="item_head">Гарантии результата</h2>
-                                    <p class="item_paragraph">Даем гарантии на результат или возвращаем вам деньги</p>
+                                    <h2 class="block__item_head">Гарантии результата</h2>
+                                    <p class="block__item_paragraph block__develop animate">Даем гарантии на результат
+                                        или
+                                        возвращаем вам деньги</p>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-            </div>
-        </div> -->
+                <section class="blocks">
+                    <div class="group__block blocks__content">
+                        <div class="block blocks__content-1">
+                            <h2 class="block__item_head item_head-1 animate">Миссия</h2>
+                            <p class="block__item_paragraph item_paragraph-1">Повышение уровня жизни людей посредсвом
+                                оказания помощи им в обретении финансовой свободы, стабильности и защищенности. </p>
+                        </div>
+                    </div>
+                    <div class="group__block blocks__content">
+                        <div class="block blocks__content-2">
+                            <h2 class="block__item_head item_head-1">Ценности</h2>
+                            <p class="block__item_paragraph item_paragraph-1">Мы строим свою работу профессионально,
+                                честно и открыто. Нет шаблонным решениям – только индивидуальный подход к каждому
+                                партнеру для достижения поставленных целей. Мы за экологичный бизнес!</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="block__procurement">
+                    <div class="procurement">
+                        <div class="procurement__text">
+                            <h2 class="procurement__text_item animate">Что такое госзакупки?</h2>
+                            <p class="procurement__text_paragraph">Государственные закупки - это система размещения
+                                заказов на поставку товаров или оказания услуг для муниципальных или государственных
+                                нужд. Номенклатура их огромна - от канцелярских скрепок до крупных промышленных
+                                объектов. Проведение таких закупок положительно сказывается как на развитии самого
+                                государства, так и на развитии бизнеса в целом. Государство получает необходимый
+                                товар/услугу на выгодных условиях, а поставщик получает деньги. Поставщиком (участником
+                                закупок) может стать любой желающий.</p>
+                        </div>
+                        <img class="procurement__img" src="./img/gerb.png" alt="Герб">
+                    </div>
+                </section>
+                <section class="presentation">
+                    <h2 class="presentation__text animate">Как строится бизнес на госзакупках?</h2>
+                    <div class="presentation__blocks">
+                        <div class="block presentation__blocks_1 presentation__blocks_marg">
+                            <div class="presentation__blocks_elipse">1</div>
+                            <h2 class="block__item_head item_head-1 presentation_item">получаете контракт</h2>
+                            <p class="block__item_paragraph item_paragraph-1 presentation_paragraph">От нашего
+                                специалиста на сумму 1000 000 рублей и выигрываете его</p>
+                        </div>
+                        <div class="block presentation__blocks_1">
+                            <div class="presentation__blocks_elipse">2</div>
+                            <h2 class="block__item_head item_head-1 presentation_item animate">исполняете его</h2>
+                            <p class="block__item_paragraph item_paragraph-1 presentation_paragraph">Мы предоставляем
+                                вам базу нашу проверенных поставщиков</p>
+                        </div>
+                        <div class="block presentation__blocks_1">
+                            <div class="presentation__blocks_elipse">3</div>
+                            <h2 class="block__item_head item_head-1 presentation_item">зарабатываете</h2>
+                            <p class="block__item_paragraph item_paragraph-1 presentation_paragraph animate">Получаете
+                                прибыль 250000 с учётом затрат на исполнение контракта</p>
+                            <p class="block__item_paragraph item_paragraph-2 presentation_paragraph animate">* Средний
+                                цикл сделки – 21 рабочий день</p>
+                        </div>
+                    </div>
+                    <form action="">
+                        <button class="consultation presentation_button animate">Скачать презентацию</button>
+                    </form>
+                </section>
+                <section class="benefits">
+                    <h2 class="benefits__text">Почему это выгодно?</h2>
+                    <div class="group__block benefits__blocks">
+                        <div class="block benefits__block">
+                            <div class="block__vector">
+                                <img src="./img/vector.png" class="vector_img">
+                            </div>
+                            <div class="block_item">
+                                <p class="block__item_paragraph benefits__block_text animate">Государство было, есть и
+                                    останется самым крупным и платежеспособным потребителем</p>
+                            </div>
+                        </div>
+                        <div class="block benefits__block">
+                            <div class="block__vector">
+                                <img src="./img/vector.png" class="vector_img">
+                            </div>
+                            <div class="block_item">
+                                <p class="block__item_paragraph benefits__block_text animate">В государственных закупках
+                                    ваш доход неограничен</p>
+                            </div>
+                        </div>
+                        <div class="block benefits__block">
+                            <div class="block__vector">
+                                <img src="./img/vector.png" class="vector_img">
+                            </div>
+                            <div class="block_item">
+                                <p class="block__item_paragraph benefits__block_text animate">Бизнес в сфере госзакупок
+                                    не подвержен кризису</p>
+                            </div>
+                        </div>
+                        <div class="block benefits__block">
+                            <div class="block__vector">
+                                <img src="./img/vector.png" class="vector_img">
+                            </div>
+                            <div class="block_item">
+                                <p class="block__item_paragraph  animate benefits__block_text">Работа с государственными
+                                    закупками не требует затрат на офис и персонал</p>
+                            </div>
+                        </div>
+                        <div class="block benefits__block">
+                            <div class="block__vector">
+                                <img src="./img/vector.png" class="vector_img">
+                            </div>
+                            <div class="block_item">
+                                <p class="block__item_paragraph benefits__block_text">В сфере госзакупок отсутствует
+                                    сезонность</p>
+                            </div>
+                        </div>
+                        <div class="block benefits__block">
+                            <div class="block__vector">
+                                <img src="./img/vector.png" class="vector_img">
+                            </div>
+                            <div class="block_item">
+                                <p class="block__item_paragraph benefits__block_text">Это надежности засчет обеспечения
+                                    контракта или банковской гарантии</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="years">
+                    <div class="years__2017">
+                        <h2 class="years__2017_text">2017</h2>
+                        <h3 class="years__2017_text-1">4 690 298</h3>
+                        <p class="years__2017_paragraph">Количество размещенных контрактов и договоров</p>
+                        <h3 class="years__2017_text-1">26 021,21</h3>
+                        <p class="years__2017_paragraph">млрд. рублей – общая сумма государственных заказов </p>
+                    </div>
+                    <div class="years__2017 years__2017_left">
+                        <h3 class="years__2017_text">2018</h3>
+                        <h3 class="years__2017_text-1">4 883 735 </h3>
+                        <div class="years__2017-border">
+                            <p class="years__2017_paragraph">Количество размещенных контрактов и договоров </p>
+                            <h3 class="years__2017_text-1">25 350,53 </h3>
+                            <p class="years__2017_paragraph">млрд. рублей – общая сумма государственных заказов </p>
+                        </div>
+                    </div>
+                    <div class="years__2017 years__2017_left">
+                        <h3 class="years__2017_text">2019</h3>
+                        <h3 class="years__2017_text-1">5 166 917 </h3>
+                        <div class="years__2017-border">
+                            <p class="years__2017_paragraph">Количество размещенных контрактов и договоров</p>
+                            <h3 class="years__2017_text-1">29 439,99 </h3>
+                            <p class="years__2017_paragraph">млрд. рублей – общая сумма государственных заказов </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="download__presentation">
+                    <img class="download__presentation_img" src="/img/plansh.png" alt="Планшет">
+                    <div class="download__presentation_text">
+                        <p class="download__presentation_paragraph">Скачайте презентацию франшизы и узнайте, как начать
+                            зарабатывать на госзакупках не выходя из дома</p>
+                        <form action="">
+                            <button
+                                class="consultation presentation_button download__presentation_button animate">Скачать
+                                презентацию</button>
+                        </form>
+                    </div>
+                </section>
+                <section class="contract">
+                    <div class="contract__text">
+                        <h3 class="contract__text_item">Франшиза государственных закупок</h3>
+                        <p class="contract__text_paragraph">Франшиза гарантирует передачу знаний и опыта, а также
+                            поддержку и помощь со стороны франчайзера на всех этапах работы с государственными заказами.
+                            Такая схема сотрудничества позволяет франчази начать зарабатывать уже с первых месяцев с
+                            минимальными рисками и потерями денег и времени. </p>
+                    </div>
+                    <img class="contract_img" src="/img/plansh.png" alt="Контракт">
+                </section>
+                <section class="advantages">
+                    <h2 class="advantages_text">Что вы получите с франшизой?</h2>
+                    <div class="advantages__blocks">
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages1.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Команда профессионалов</h3>
+                            <p class="advantages_block_paragraph">Мы на практике научим вас зарабатывать на
+                                государственных закупках и будем подбирать под вас наиболее выгодные контракты </p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages2.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Заявки для участия от вашего имени</h3>
+                            <p class="advantages_block_paragraph">Мы вместе с вами подготовим все необходимые документы
+                                и будем участвовать в государственных контрактах от вашего имени </p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages3.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Бухгалтерское сопровождение</h3>
+                            <p class="advantages_block_paragraph">Мы предоставляем нашим партнерам полное бухгалтерское
+                                сопровождение на 6 месяцев</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages4.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Индивидуальный тендерный специалист</h3>
+                            <p class="advantages_block_paragraph">За вами закрепляется тендерный специалист, который
+                                полностью обучит вас и будет поддерживать на протяжении всего нашего партнерства</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages5.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">подбор выгодных контрактов для вас</h3>
+                            <p class="advantages_block_paragraph">Мы подбираем и предоставляем вам контракты с
+                                маржинальностью от 30 до 80%</p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages6.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">БАза проверенных поставщиков </h3>
+                            <p class="advantages_block_paragraph">Мы предоставляем вам базу проверенных поставщиков
+                                Европы, России и Китая, с которыми работаем сами</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages7.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Электронная подпись</h3>
+                            <p class="advantages_block_paragraph">Мы оформим для вас электронную цифровую подпись и
+                                аккредитуем вас на всех государственных площадках</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages8.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Закрепленный
+                                за вами регион </h3>
+                            <p class="advantages_block_paragraph">Мы закрепляем за вами регион в целях масштабирования
+                                вашего бизнеса ( один партнер на один регион)</p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages9.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Тендерный отдел под ключ</h3>
+                            <p class="advantages_block_paragraph">По истечению года нашего партнерства мы строим для вас
+                                тендерный отдел под ключ и организуем весь ход работы </p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="/img/advantages10.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Гарантии
+                                по договору</h3>
+                            <p class="advantages_block_paragraph">Мы строго соблюдаем регламенты нашей компании и даем
+                                вам гарантию окупаемости по договору </p>
+                        </div>
+                        <div class="advatages_block_contract">
+                            <h2 class="advatages_block_contract-text">Образец договора</h2>
+                            <img class="advatages_block_contract-img" src="/img/contract.png" alt="">
+                            <button
+                                class="consultation presentation_button advatages_block_contract_button animate">Скачать
+                                презентацию</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
     </div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>

@@ -1,4 +1,8 @@
 .header__topic-link_type_dark {
-  color: #3b0000;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  margin-right: 15px;
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }

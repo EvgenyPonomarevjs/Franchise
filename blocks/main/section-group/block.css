@@ -1,3 +1,4 @@
+
 .block {
     display: flex;
     width: 386px;
@@ -31,7 +32,4 @@
     line-height: 26px;
     color: #FFFFFF;
     padding-right: 40px;
-}
-.block__develop {
-  
 }
