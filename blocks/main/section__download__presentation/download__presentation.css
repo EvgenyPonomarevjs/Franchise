@@ -1,0 +1,29 @@
+.download__presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 428px;
+    background: #101256;
+    box-shadow: 0px 30px 40px rgba(0, 1, 32, 0.35);
+    border-radius: 10px;
+    margin-top: 160px;
+}
+.download__presentation_button {
+    margin-left: 0;
+}
+.download__presentation_img {
+    width: 481px;
+    height: 345px;
+    display: block;
+    margin-top: 71px;
+}
+.download__presentation_paragraph {
+    width: 610px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 142%;
+    color: #FFFFFF;
+}

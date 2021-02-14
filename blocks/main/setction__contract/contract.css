@@ -1,0 +1,38 @@
+.contract {
+    display: flex;
+    width: 1200px;
+    height: 467px;
+    margin-top: 100px;
+    background: #101256;
+    box-shadow: 0px 30px 40px rgba(0, 1, 32, 0.35);
+    border-radius: 10px;
+}
+.contract__text {
+    width: 628px;
+    margin-left: 68px;
+    margin-top: 80px;
+    margin-right: 105px;
+}
+.contract__text_item {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.contract__text_paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.contract_img {
+    display: block;
+    width: 309px;
+    height: 358px;
+    margin-top: 40px;
+}
