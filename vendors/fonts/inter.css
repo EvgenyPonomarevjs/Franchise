@@ -30,6 +30,7 @@
 @font-face {
   font-family: "Roboto";
   font-style: normal;
+  font-style: Thin;
   font-display: swap;
   src: url("Roboto-Thin.woff2") format("woff2");
 }
@@ -38,4 +39,9 @@
   font-style: normal;
   font-display: swap;
   src: url("Arya-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto-thin";
+  font-display: auto;
+  src: url("roboto-thin_[allfont.ru].ttf") format("ttf");
 }
