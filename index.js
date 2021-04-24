@@ -49,3 +49,9 @@ animate();
 //     });
 // };
 // animate();
+$(document).ready(function(){
+  $('#owl-carousel-1').owlCarousel();
+});
+$('#js-carousel-2').owlCarousel({
+  items: 1 // А по-умолчанию 3
+});
