@@ -1,4 +1,4 @@
-// получаем массив с элементами:
+/* // получаем массив с элементами:
 const animatedItems = Array.from(document.querySelectorAll('.animate'));
 // для каждого элемента в массиве при скроле применяем условие:
 const itemtest = document.querySelector('.presentation__text');
@@ -32,7 +32,7 @@ const animate = () => {
       : item.classList.remove('animate-active');
   });
 }
-animate();
+animate(); */
 
   // console.log(`${window.pageYOffset} верхняя граница окна`)
   // console.log(`${window.innerHeight} высота окна`)
@@ -49,9 +49,7 @@ animate();
 //     });
 // };
 // animate();
-$(document).ready(function(){
-  $('#owl-carousel-1').owlCarousel();
-});
-$('#js-carousel-2').owlCarousel({
-  items: 1 // А по-умолчанию 3
-});
+but.onclick = function() 
+{
+  document.body.classList.toggle('dark-mode');
+}

@@ -15,7 +15,7 @@
   padding-left: 0;
 }
 .footer__logo-list li {
-  font-family: "Roboto";
+  font-family: "Roboto",Arial,sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 200;
@@ -37,7 +37,7 @@ opacity: 0.98;
   margin-bottom: 35px;
 }
 .footer__konf-item {
-  font-family: Roboto;
+  font-family: "Roboto",Arial,sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 18px;
@@ -51,7 +51,7 @@ opacity: 0.98;
   margin-bottom: 46px;
 }
 .footer__konf-link {
-  font-family: Roboto;
+  font-family: "Roboto",Arial,sans-serif;
 font-style: normal;
 font-weight: 200;
 font-size: 16px;
