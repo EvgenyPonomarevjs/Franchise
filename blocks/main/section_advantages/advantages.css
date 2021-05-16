@@ -1,13 +1,13 @@
 .advantages {
     margin-top: 160px;
+    margin-bottom: 182px;
 }
-.advantages_text {
+.advantages_text { 
     margin: 0 auto;
     font-family: "Bebas Neue";
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 140%;
     text-align: center;
     color: #FFFFFF;
 }
@@ -88,12 +88,10 @@
    margin-left: -75px;
 }
 .advatages_block_contract_button {
-
     width: 240px;
     height: 62px;
     margin: 0 auto;
     margin-top: 18px;
-    margin-left: 30px;
 }
 .position {
     position: absolute;
@@ -104,7 +102,7 @@
 }
 .advatages_block_application {
     width: 451px;
-    height: 45px;
+
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -124,7 +122,7 @@
     width: 238px;
     height: 62px;
     margin: 0 auto;
-    margin-left: 106px;
+
     margin-top: 60px;
     font-family: "Roboto";
     font-style: Medium;

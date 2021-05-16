@@ -30,6 +30,9 @@
                         <li><a class="nav__list-link" href="#">Команда</a></li>
                         <li><a class="nav__list-link" href="#">Контакты</a></li>
                     </ul>
+                    <div class="menu__burger">
+                        <span class="span__burger"></span>
+                    </div>
                 </nav>
                 <div class="header__tel">
                     <a class="header__tel-link" href="tel:88002011629">8 800 201 16 29</a>
@@ -148,14 +151,14 @@
                                 цикл сделки – 21 рабочий день</p>
                         </div>
                     </div>
-                    <form action="">
+                    <form class="form__mob" action="">
                         <button class="consultation presentation_button animate">Скачать презентацию</button>
                     </form>
                 </section>
                 <section class="benefits">
                     <h2 class="benefits__text">Почему это выгодно?</h2>
                     <div class="group__block benefits__blocks">
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil ">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -164,7 +167,7 @@
                                     останется самым крупным и платежеспособным потребителем</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block  benefits__block-mobil" id="second">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -173,7 +176,7 @@
                                     ваш доход неограничен</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -182,7 +185,7 @@
                                     не подвержен кризису</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil" id="second">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -191,7 +194,7 @@
                                     закупками не требует затрат на офис и персонал</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -200,7 +203,7 @@
                                     сезонность</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil" id="second">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -212,7 +215,7 @@
                     </div>
                 </section>
                 <section class="years">
-                    <div class="years__2017">
+                    <div class="years__2017 years__2017-mobil">
                         <h2 class="years__2017_text">2017</h2>
                         <h3 class="years__2017_text-1">4 690 298</h3>
                         <p class="years__2017_paragraph">Количество размещенных контрактов и договоров</p>
@@ -243,7 +246,7 @@
                     <div class="download__presentation_text">
                         <p class="download__presentation_paragraph">Скачайте презентацию франшизы и узнайте, как начать
                             зарабатывать на госзакупках не выходя из дома</p>
-                        <form action="">
+                        <form class="presentation_button" action="">
                             <button
                                 class="consultation presentation_button download__presentation_button animate">Скачать
                                 презентацию</button>
@@ -258,7 +261,7 @@
                             Такая схема сотрудничества позволяет франчази начать зарабатывать уже с первых месяцев с
                             минимальными рисками и потерями денег и времени. </p>
                     </div>
-                    <img class="contract_img" src="./img/plansh.png" alt="Контракт">
+                    <img class="contract_img" src="./img/contract01 1.png" alt="Контракт">
                 </section>
                 <section class="advantages">
                     <h2 class="advantages_text">Что вы получите с франшизой?</h2>
@@ -349,25 +352,26 @@
                             <h2 class="advatages_block_contract-text">Образец договора</h2>
                             <img class="advatages_block_contract-img" src="./img/doc1.png" alt="">
                             <img class="advatages_block_contract-img position" src="./img/ry1.png" alt="">
-                            <form>
+                            <form class="presentation_button">
                                 <button
-                                class="consultation presentation_button advatages_block_contract_button animate">Скачать
+                                class="consultation  advatages_block_contract_button animate">Скачать
                                 договор</button>
                             </form>
                         </div>
                     </div>
                     <div class="advatages_block_application">
                         <h3 class="advatages_block_application-text">ПАУШАЛЬНЫЙ ВЗНОС: <span class="gold1"> 350 000</span> рублей</h3>
-                        <form>
+                        <form class="presentation_button">
                             <button
-                            class="consultation presentation_button advatages_block_application_button animate">Оставить заявку</button>
+                            class="consultation  advatages_block_application_button animate">Оставить заявку</button>
                         </form>
                     </div>
                 </section>
                 <section class="founder">
-                    <div class="founder__block">
+                    <div class="founder__block_carousel">
                         <img class="founder__block-img" src="/img/osnov.png" alt="Основатель">
                         <div class="fouder__block-text">
+                            <div class="fouder__block-text-mar">
                             <p class="fouder__block-paragraph-1">Основатель компании</p>
                             <h3 class="fouder__block-item">Князев Александр Николаевич</h3>
                             <p class="fouder__block-paragraph">Рад приветствовать вас на нашем сайте!</p>
@@ -375,9 +379,10 @@
                             <p class="fouder__block-paragraph">Работа с госзаказами - это лучшая возможность начать быстро зарабатывать достойные деньги с минимальными рисками!</p>
                             <p class="fouder__block-paragraph">В нашей команде "ПРОтендер" работают практикующие эксперты, которые “за руку" проведут вас по всем этапам работы с государственными заказами, поделятся с вами опытом и доведут вас до результата.</p>
                             <p class="fouder__block-paragraph">Нам выгодно, когда вы зарабатываете! И зарабатываете много... Главное, помните, что <span class="fouder_block-paragraph-item">УСПЕХ ПРИХОДИТ К ТЕМ, КТО ДЕЙСТВУЕТ!</span></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="founder__block_carousel">
+                    <div class="founder__block_carousel founder__block_carousel-mobil">
                         <div class="fouder__block-text carousel">
                             <div class="fouder__block-text-mar">
                             <p class="fouder__block-paragraph-1">Основатель компании</p>
@@ -392,7 +397,7 @@
                     </div>
                 </section>
                 <section class="contacts">
-                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.8509863495015!2d39.72742351585807!3d43.60964417912293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb8cdfac559d%3A0xb0cd7091228a3d7!2z0YPQuy4g0JPQsNCz0LDRgNC40L3QsCwgNzIsIDI5LCDQodC-0YfQuCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1NDA2OA!5e0!3m2!1sru!2sru!4v1619263065933!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.8509863495015!2d39.72742351585807!3d43.60964417912293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb8cdfac559d%3A0xb0cd7091228a3d7!2z0YPQuy4g0JPQsNCz0LDRgNC40L3QsCwgNzIsIDI5LCDQodC-0YfQuCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1NDA2OA!5e0!3m2!1sru!2sru!4v1619263065933!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     <div class="contacts__block">
                         <h3 class="contacts__block-h">Наши контакты </h3>
                         <div class="contacts__block_wrap">
@@ -432,7 +437,7 @@
                         <li>ОГРН  1192375076013</li>
                     </ul>
                 </div>
-                <nav class="nav">
+                <nav class="nav nav-mobil">
                     <ul class="nav__list footer__nav">
                         <li class="footer__nav-link"><a class="nav__list-link" href="#">Главная</a></li>
                         <li class="footer__nav-link"><a class="nav__list-link" href="#">О компании</a></li>
