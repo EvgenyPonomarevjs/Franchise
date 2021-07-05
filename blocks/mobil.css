@@ -1,7 +1,5 @@
 @media (min-width:641px) and (max-width:767px) {
-  .header__basic {
-    
-  }
+ /*ХЕДЕР*/
   .nav__list li {
     display: none;
   }
@@ -14,7 +12,7 @@
 .span__burger {
   display: block;
   width: 20px;
-  height: 2px;
+  max-height: 2px;
   background-color: #ffffff;
   position: absolute;
 }
@@ -22,7 +20,7 @@
   content: '';
   display: block;
   width: 20px;
-  height: 2px;
+  max-height: 2px;
   background-color: #ffffff;
   margin-top: -8px;
 }
@@ -30,7 +28,7 @@
   content: "";
   margin-top: 15px;
   width: 20px;
-  height: 2px;
+  max-height: 2px;
   display: block;
   background-color: #ffffff;
 }
@@ -39,7 +37,7 @@
   margin-left: 37%;
 }
 
-
+/*Main*/
 .main__content {
   display: block;
   margin: 0 auto;
@@ -47,7 +45,7 @@
 .hed_h1 {
   width: 689px;
   margin: 0 auto;
-height: 178px;
+  max-height: 178px;
 font-size: 54px;
 line-height: 60px;
 text-align: center;
@@ -64,8 +62,6 @@ text-transform: uppercase;
  margin: 0 auto;
  text-align: center;
 }
-
-
 .group {
   width: 410px;
   margin: 0 auto;
@@ -73,9 +69,6 @@ text-transform: uppercase;
 .block {
   margin-left: 0;
 }
-
-
-
 
 .blocks {
   width: 620px;
@@ -92,10 +85,6 @@ height: 299px;
   width: 100%;
   height: 363px;
  }
-
-
-
-
 .procurement {
   display: block;
   margin: 0 auto;
@@ -123,8 +112,6 @@ height: 309px;
 margin-left: 25%;
 padding-top: 30px;
 }
-
-
 .presentation__text {
   margin: 0 auto;
   margin-top: 100px;
@@ -159,10 +146,7 @@ margin-top: 50px;
   margin: 0 auto;
   margin-top: 20px;
 }
-
-
-
-/*пОЧЕМУ ЭТО ВЫГОДНО*/
+/*ПОЧЕМУ ЭТО ВЫГОДНО*/
 .benefits__text {
   max-width: 400px;
   height: 67px;
@@ -180,9 +164,6 @@ margin-top: 50px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
-
-
-
 /*2017*/
 .years__2017_left {
   margin-left: 0;
@@ -193,9 +174,6 @@ margin-top: 50px;
 .years__2017-mobil {
   display: none;
 }
-
-
-
 /*Скачайте презентацию*/
 .download__presentation, .contract {
   display: block;
@@ -216,10 +194,7 @@ margin: 0 auto;
 margin-top: 40px;
 margin-bottom: 70px;
 }
-
-.contract {
-
-}
+/*Контракт*/
 .contract__text {
   margin:  0 auto;
   max-width: 522px;
@@ -245,7 +220,6 @@ margin-bottom: 70px;
 }
 .advantages_block {
   margin: 0 auto;
-
 }
 .advantages_text {
   margin: 0;
@@ -286,7 +260,7 @@ height: 776px;
 
 /*Контакты*/
 .contacts {
-display: block;
+  display: block;
 }
 .maps {
   max-width: 620px;
@@ -300,7 +274,7 @@ display: block;
   margin-top: 10px;
 }
 
-
+/*FOOTER*/
 .footer__wrap {
   max-width: 620px;
   width: 100%;
@@ -308,4 +282,273 @@ display: block;
 .nav-mobil {
   display: none;
 }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+ /*ХЕДЕР*/
+ .nav__list li {
+  display: none;
+}
+.menu__burger {
+position: absolute;
+width: 20px;
+height: 30px;
+display: block;
+}
+.span__burger {
+display: block;
+width: 20px;
+height: 2px;
+background-color: #ffffff;
+position: absolute;
+}
+.span__burger::before {
+content: '';
+display: block;
+width: 20px;
+height: 2px;
+background-color: #ffffff;
+margin-top: -8px;
+}
+.span__burger::after {
+content: "";
+margin-top: 15px;
+width: 20px;
+height: 2px;
+display: block;
+background-color: #ffffff;
+}
+.header__tel {
+position: absolute;
+margin-left: 37%;
+}
+
+/*Main*/
+.main__content {
+display: block;
+margin: 0 auto;
+}
+.hed_h1 {
+width: 320px;
+margin: 0 auto;
+height: 178px;
+font-size: 54px;
+line-height: 60px;
+text-align: center;
+text-transform: uppercase;
+}
+.hed_text {
+width: 259px;
+margin: 0 auto;
+margin-top: 37px;
+}
+.main__content-hed {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+.group {
+
+margin: 0 auto;
+}
+.block {
+margin-left: 0;
+}
+
+.blocks {
+display: block;
+margin: 0 auto;
+}
+
+
+.procurement {
+display: block;
+margin: 0 auto;
+margin-top: 100px;
+width: 100%;
+height: 1000px;
+}
+.procurement__text_item {
+text-align: center;
+}
+.procurement__text {
+width: 100%;
+margin: 0 auto;
+padding-top: 70px;
+padding-left: 0;
+}
+.procurement__text_paragraph {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.procurement__img {
+width: 309px;
+height: 309px;
+margin-left: 25%;
+padding-top: 30px;
+}
+.presentation__text {
+margin: 0 auto;
+margin-top: 100px;
+}
+.presentation__blocks {
+display: block;
+width: 100%;
+margin: 0 auto;
+}
+.presentation__blocks_1 {
+  margin: 0 auto;
+  margin-top: 40px;
+height: 258px;
+}
+.presentation_item {
+padding-top: 0;
+}
+.presentation_paragraph {
+padding-top: 0;
+}
+.presentation__text {
+line-height: 110%;
+width: 376px;
+}
+.form__mob {
+margin: 0 auto;
+margin-top: 50px;
+}
+.presentation_button{
+margin: 0 auto;
+margin-top: 20px;
+}
+/*ПОЧЕМУ ЭТО ВЫГОДНО*/
+.benefits__text {
+height: 67px;
+margin: 0 auto;
+}
+.benefits__blocks {
+display: block;
+margin-top: 20px;
+}
+#second {
+margin: 0 auto;
+margin-bottom: 20px;
+}
+.benefits__block-mobil {
+margin: 0 auto;
+margin-bottom: 20px;
+}
+/*2017*/
+.years__2017_left {
+margin-left: 0;
+}
+.years__2017-border {
+border: none;
+}
+.years__2017-mobil {
+display: none;
+}
+/*Скачайте презентацию*/
+.download__presentation, .contract {
+display: block;
+max-height: 875px;
+margin: 0 auto;
+margin-top: 100px;
+}
+.download__presentation_img {
+margin: 0 auto;
+padding-top: 70px;
+}
+.download__presentation_paragraph {
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 70px;
+padding-left: 20px;
+padding-right: 20px;
+}
+/*Контракт*/
+.contract__text {
+margin:  0 auto;
+padding-top: 70px;
+}
+.contract__text_item {
+margin: 0 auto;
+text-align: center;
+}
+.contract__text_paragraph {
+font-size: 20px;
+}
+.contract_img {
+margin: 0 auto;
+margin-top: 35px;
+}
+
+
+.advantages__blocks {
+display: block;
+margin: 0 auto;
+}
+.advantages_block {
+margin: 0 auto;
+}
+.advantages_text {
+margin: 0;
+font-size: 48px;
+line-height: 140%;
+}
+.advatages_block_contract {
+margin: 0 auto;
+margin-top: 60px;
+}
+
+
+.founder__block_carousel, .founder__block  {
+display: block;
+margin: 0 auto;
+max-width: 621px;
+}
+.fouder__block-text {
+background: #101256;
+box-shadow: 0px 30px 40px rgba(0, 1, 32, 0.35);
+border-radius: 10px;
+height: 776px;
+}
+.fouder__block-paragraph {
+font-size: 20px;
+}
+.founder__block_carousel-mobil {
+margin-top: 100px;
+
+}
+.carousel {
+height: 827px;
+}
+.founder__block_carousel-img {
+margin: 0 auto;
+}
+
+
+/*Контакты*/
+.contacts {
+display: block;
+}
+.maps {
+max-width: 620px;
+width: 120%;
+margin-left: 5%;
+}
+.contacts__block {
+max-width: 620px;
+width: 100%;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+/*FOOTER*/
+.footer__wrap {
+max-width: 620px;
+width: 100%;
+}
+.nav-mobil {
+display: none;
+} 
 }
