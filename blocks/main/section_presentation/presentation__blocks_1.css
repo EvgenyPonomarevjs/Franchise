@@ -4,7 +4,7 @@
     display: block;
     position: relative;
     margin-left: 77px;
-    margin-top: 96px;
+  
 }
 .presentation__blocks_marg {
     margin-left: 35px;
@@ -42,4 +42,9 @@
 .presentation_paragraph {
     padding-left: 40px;
     padding-top: 20px;
+}
+.form__mob {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 289px;
 }

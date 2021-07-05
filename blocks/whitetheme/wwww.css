@@ -1,0 +1,171 @@
+
+.dark-mode .wrap-dark{
+  background: #D4E1ED;
+}
+.dark-mode .header {
+  background-color: #D4E1ED;
+}
+.dark-mode .footer {
+  background: #D4E1ED;
+}
+.dark-mode .hed_h1 {
+  color: #070939;
+}
+.dark-mode .block{
+background: #F0F8FF;
+box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+}
+.dark-mode .download__presentation {
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.dark-mode .contract {
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.dark-mode .advantages_block {
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.dark-mode .founder__block{
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.dark-mode .fouder__block-text {
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.dark-mode .carousel{
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.dark-mode .contacts__block{
+  background: #F0F8FF;
+
+}
+.dark-mode .footer{
+  background: #F0F8FF;
+
+}
+.dark-mode .block__item_paragraph{
+  background: #F0F8FF;
+
+}
+.dark-mode .years__2017_text{
+  background: #F0F8FF;
+
+}
+.dark-mode input:checked[type="checkbox"] {
+  background: #F0F8FF;
+}
+
+
+
+.dark-mode .procurement__text_paragraph {
+  color: #070939;
+}
+.dark-mode .gold {
+  background: linear-gradient(179.8deg, #724927 -18.22%, #9F743A 3.08%, #FDFEB1 35.04%, #FFD174 47.69%, #8E5218 76.33%, #A35F20 103.62%);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32); 
+}
+
+.dark-mode  .footer__konf-item{
+  color: #070939;
+}
+.dark-mode .contacts__block-text a{
+  color: #070939;
+}
+.dark-mode .benefits__text{
+  color: #070939;
+}
+.dark-mode .footer__logo-list li{
+  color: #070939;
+}
+.dark-mode .nav__list-link{
+  color: #070939;
+}
+
+.dark-mode .block__item_paragraph{
+  color: #070939;
+}
+.dark-mode .advantages_block_paragraph{
+  color: #070939;
+}
+.dark-mode .advatages_block_contract-text{
+  color: #070939;
+}
+.dark-mode .advatages_block_application-text{
+  color: #070939;
+}
+.dark-mode .fouder__block-item{
+  color: #070939;
+}
+.dark-mode .fouder__block-paragraph{
+  color: #070939;
+}
+.dark-mode .contacts__block-h{
+  color: #070939;
+}
+
+
+
+.dark-mode .contacts__block-text {
+  color: #070939;
+}
+.dark-mode .fouder__block-paragraph-1 {
+  color: #070939;
+}
+.dark-mode .years__2017_text{
+  color: #070939;
+}
+.dark-mode .years__2017_text-1{
+  color: #070939;
+}
+.dark-mode .years__2017_paragraph{
+  color: #070939;
+}
+.dark-mode .download__presentation_paragraph{
+  color: #070939;
+}
+.dark-mode .contract__text_item{
+  color: #070939;
+}
+.dark-mode .presentation__text{
+  color: #070939;
+}
+.dark-mode .contract__text_paragraph{
+  color: #070939;
+}
+.dark-mode .advantages_text{
+  color: #070939;
+}
+.dark-mode .advantages_block_text{
+  color: #070939;
+}
+.dark-mode .footer__konf-link{
+  color: #070939;
+}
+
+.dark-mode .block__item_head{
+  color: #070939;
+}
+.dark-mode .procurement__text_item {
+  color: #070939;
+}
+.dark-mode .header__tel-link {
+  color: #070939;
+}
+.dark-mode .procurement {
+  background: #F0F8FF;
+  box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}

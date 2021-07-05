@@ -30,3 +30,10 @@
 @import url(../blocks/main/section__download__presentation/download__presentation.css);
 @import url(../blocks/main/setction__contract/contract.css);
 @import url(../blocks/main/section_advantages/advantages.css);
+@import url(../blocks/main/section__founder/founder_block.css);
+@import url(../vendors/fonts/roboto/stylesheet.css);
+@import url(../blocks/main/section__contact/contacts.css);
+@import url(../blocks/footer/footer.css);
+/* @import url(../blocks/whitetheme/white_theme.css); */
+@import url(../blocks/whitetheme/wwww.css);
+@import url(../blocks/mobil.css);

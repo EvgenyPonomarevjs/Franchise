@@ -1,0 +1,41 @@
+.wrap-dark {
+  background: #D4E1ED;
+}
+ul, li, a, span, p, h2, h3{
+  color: #070939;
+}
+.header {
+  background-color: #D4E1ED;
+}
+.footer {
+  background: #D4E1ED;
+}
+.hed_h1 {
+  color: #070939;
+}
+.block, .procurement, .years__2017_text, .download__presentation, .contract, .advantages_block, .founder__block, .carousel, .contacts__block, .footer .block__item_paragraph{
+  
+  background: #F0F8FF;
+box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+}
+.block__item_paragraph, .block__item_head, .procurement__text_item, .presentation__text, .years__2017_text, .years__2017_text-1, .years__2017_paragraph, .download__presentation_paragraph,
+.contract__text_item, .contract__text_paragraph, .advantages_text, .advantages_block_text, .advantages_block_paragraph, .advatages_block_contract-text,
+.advatages_block_application-text, .fouder__block-item, .fouder__block-paragraph, .contacts__block-h, .contacts__block-text a, .benefits__text, .footer__logo-list li, .nav__list-link, .footer__konf-item, .footer__konf-link, .header__tel-link{
+  color: #070939;
+}
+.procurement__text_paragraph {
+  color: #070939;
+}
+.gold {
+  
+  background: linear-gradient(179.8deg, #724927 -18.22%, #9F743A 3.08%, #FDFEB1 35.04%, #FFD174 47.69%, #8E5218 76.33%, #A35F20 103.62%);
+  -webkit-background-clip: text;
+ /*  -webkit-text-fill-color: transparent; */
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32); */
+
+
+}
+.theme-white {
+  color: #070939;
+}

@@ -28,12 +28,6 @@
   src: url("BebasNeueBold.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-display: swap;
-  src: url("Roboto-Thin.woff2") format("woff2");
-}
-@font-face {
   font-family: "Arya";
   font-style: normal;
   font-display: swap;

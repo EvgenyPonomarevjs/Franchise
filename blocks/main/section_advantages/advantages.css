@@ -1,13 +1,13 @@
 .advantages {
     margin-top: 160px;
+    margin-bottom: 182px;
 }
-.advantages_text {
+.advantages_text { 
     margin: 0 auto;
     font-family: "Bebas Neue";
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 140%;
     text-align: center;
     color: #FFFFFF;
 }
@@ -31,8 +31,6 @@
 .advantages_block_elipsimg {
     margin: 0 auto;
     margin-top: 80px;
-    background-image: url(/img/Ellipse\ 3.svg);
-    background-repeat: no-repeat;
     width: 150px;
     height: 150px;
     
@@ -74,24 +72,61 @@
     width: 339px;
 }
 .advatages_block_contract-text {
-    margin: 0 auto;
     font-family: "Bebas Neue";
     font-style: normal;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 48px;
-    line-height: 140%;
+    line-height: 14px;
     text-align: center;
     color: #FFFFFF;
 }
 .advatages_block_contract-img {
-    width: 200px;
-    height: 400px;
+    width: 418px;
+    height: 450px;
     display: inline-block;
+   margin-left: -75px;
 }
 .advatages_block_contract_button {
     width: 240px;
-height: 62px;
+    height: 62px;
     margin: 0 auto;
     margin-top: 18px;
-    margin-left: 0;
+}
+.position {
+    position: absolute;
+    width: 151.35px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -150px;
+}
+.advatages_block_application {
+    width: 451px;
+
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.advatages_block_application-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.gold1 {
+    font-weight: 900;
+    color: gold;
+}
+.advatages_block_application_button {
+    width: 238px;
+    height: 62px;
+    margin: 0 auto;
+
+    margin-top: 60px;
+    font-family: "Roboto";
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152%;
+    color: #080A42;
 }

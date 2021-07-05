@@ -1,5 +1,6 @@
 .presentation__blocks {
     display: flex;
+    width: 100%;
 }
 .presentation__text {
     font-family: "Bebas Neue";
@@ -13,6 +14,6 @@
 }
 .presentation_button {
     margin: 0 auto;
-    margin-left: 39%;
-    margin-top: 96px;
+    margin-top: 10px;
+
 }

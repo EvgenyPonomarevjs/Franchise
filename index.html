@@ -15,7 +15,7 @@
             <div class="header__topic">
                 <a class="header__topic-link_type_white" href="#">Светлая</a>
                 <div class="header__topic-input">
-                    <input class="header__topic-checkbox" type="checkbox">
+                    <input id = "but" value="смена фона" class="header__topic-checkbox" type="checkbox">
                 </div>
                 <div class="header__topic-link_dark">
                     <a class="header__topic-link_type_dark" href="#">Темная</a>
@@ -30,6 +30,9 @@
                         <li><a class="nav__list-link" href="#">Команда</a></li>
                         <li><a class="nav__list-link" href="#">Контакты</a></li>
                     </ul>
+                    <div class="menu__burger">
+                        <span class="span__burger"></span>
+                    </div>
                 </nav>
                 <div class="header__tel">
                     <a class="header__tel-link" href="tel:88002011629">8 800 201 16 29</a>
@@ -49,7 +52,7 @@
                             <span>Мы гарантируем окупаемость по договору, поэтому вы в любом случае заработаете!</span>
                         </div>
                         <form action="">
-                            <button class="consultation">Получить консультацию</button>
+                            <button  class="consultation">Получить консультацию</button>
                         </form>
                     </div>
                     <section class="group">
@@ -103,7 +106,7 @@
                     <div class="group__block blocks__content">
                         <div class="block blocks__content-2">
                             <h2 class="block__item_head item_head-1">Ценности</h2>
-                            <p class="block__item_paragraph item_paragraph-1">Мы строим свою работу профессионально,
+                            <p id="prob" class="block__item_paragraph item_paragraph-1">Мы строим свою работу профессионально,
                                 честно и открыто. Нет шаблонным решениям – только индивидуальный подход к каждому
                                 партнеру для достижения поставленных целей. Мы за экологичный бизнес!</p>
                         </div>
@@ -113,7 +116,7 @@
                     <div class="procurement">
                         <div class="procurement__text">
                             <h2 class="procurement__text_item animate">Что такое госзакупки?</h2>
-                            <p class="procurement__text_paragraph">Государственные закупки - это система размещения
+                            <p id="prob" class="procurement__text_paragraph">Государственные закупки - это система размещения
                                 заказов на поставку товаров или оказания услуг для муниципальных или государственных
                                 нужд. Номенклатура их огромна - от канцелярских скрепок до крупных промышленных
                                 объектов. Проведение таких закупок положительно сказывается как на развитии самого
@@ -148,14 +151,14 @@
                                 цикл сделки – 21 рабочий день</p>
                         </div>
                     </div>
-                    <form action="">
+                    <form class="form__mob" action="">
                         <button class="consultation presentation_button animate">Скачать презентацию</button>
                     </form>
                 </section>
                 <section class="benefits">
                     <h2 class="benefits__text">Почему это выгодно?</h2>
                     <div class="group__block benefits__blocks">
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil ">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -164,7 +167,7 @@
                                     останется самым крупным и платежеспособным потребителем</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block  benefits__block-mobil" id="second">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -173,7 +176,7 @@
                                     ваш доход неограничен</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -182,7 +185,7 @@
                                     не подвержен кризису</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil" id="second">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -191,7 +194,7 @@
                                     закупками не требует затрат на офис и персонал</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -200,7 +203,7 @@
                                     сезонность</p>
                             </div>
                         </div>
-                        <div class="block benefits__block">
+                        <div class="block benefits__block benefits__block-mobil" id="second">
                             <div class="block__vector">
                                 <img src="./img/vector.png" class="vector_img">
                             </div>
@@ -212,7 +215,7 @@
                     </div>
                 </section>
                 <section class="years">
-                    <div class="years__2017">
+                    <div class="years__2017 years__2017-mobil">
                         <h2 class="years__2017_text">2017</h2>
                         <h3 class="years__2017_text-1">4 690 298</h3>
                         <p class="years__2017_paragraph">Количество размещенных контрактов и договоров</p>
@@ -239,11 +242,11 @@
                     </div>
                 </section>
                 <section class="download__presentation">
-                    <img class="download__presentation_img" src="/img/plansh.png" alt="Планшет">
+                    <img class="download__presentation_img" src="./img/plansh.png" alt="Планшет">
                     <div class="download__presentation_text">
                         <p class="download__presentation_paragraph">Скачайте презентацию франшизы и узнайте, как начать
                             зарабатывать на госзакупках не выходя из дома</p>
-                        <form action="">
+                        <form class="presentation_button" action="">
                             <button
                                 class="consultation presentation_button download__presentation_button animate">Скачать
                                 презентацию</button>
@@ -258,7 +261,168 @@
                             Такая схема сотрудничества позволяет франчази начать зарабатывать уже с первых месяцев с
                             минимальными рисками и потерями денег и времени. </p>
                     </div>
-                    <img class="contract_img" src="/img/plansh.png" alt="Контракт">
+                    <img class="contract_img" src="./img/contract01 1.png" alt="Контракт">
+                </section>
+                <section class="advantages">
+                    <h2 class="advantages_text">Что вы получите с франшизой?</h2>
+                    <div class="advantages__blocks">
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra1.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Команда профессионалов</h3>
+                            <p class="advantages_block_paragraph">Мы на практике научим вас зарабатывать на
+                                государственных закупках и будем подбирать под вас наиболее выгодные контракты </p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra2.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Заявки для участия от вашего имени</h3>
+                            <p class="advantages_block_paragraph">Мы вместе с вами подготовим все необходимые документы
+                                и будем участвовать в государственных контрактах от вашего имени </p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra3.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Бухгалтерское сопровождение</h3>
+                            <p class="advantages_block_paragraph">Мы предоставляем нашим партнерам полное бухгалтерское
+                                сопровождение на 6 месяцев</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra4.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Индивидуальный тендерный специалист</h3>
+                            <p class="advantages_block_paragraph">За вами закрепляется тендерный специалист, который
+                                полностью обучит вас и будет поддерживать на протяжении всего нашего партнерства</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra5.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">подбор выгодных контрактов для вас</h3>
+                            <p class="advantages_block_paragraph">Мы подбираем и предоставляем вам контракты с
+                                маржинальностью от 30 до 80%</p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra6.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">БАза проверенных поставщиков </h3>
+                            <p class="advantages_block_paragraph">Мы предоставляем вам базу проверенных поставщиков
+                                Европы, России и Китая, с которыми работаем сами</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra7.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Электронная подпись</h3>
+                            <p class="advantages_block_paragraph">Мы оформим для вас электронную цифровую подпись и
+                                аккредитуем вас на всех государственных площадках</p>
+                        </div>
+                        <div class="advantages_block advantages_block_right">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra8.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Закрепленный
+                                за вами регион </h3>
+                            <p class="advantages_block_paragraph">Мы закрепляем за вами регион в целях масштабирования
+                                вашего бизнеса ( один партнер на один регион)</p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra9.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Тендерный отдел под ключ</h3>
+                            <p class="advantages_block_paragraph">По истечению года нашего партнерства мы строим для вас
+                                тендерный отдел под ключ и организуем весь ход работы </p>
+                        </div>
+                        <div class="advantages_block">
+                            <div class="advantages_block_elipsimg">
+                                <img class="advantages_block_elipsimg-img" src="./img/fra10.png" alt="">
+                            </div>
+                            <h3 class="advantages_block_text">Гарантии
+                                по договору</h3>
+                            <p class="advantages_block_paragraph">Мы строго соблюдаем регламенты нашей компании и даем
+                                вам гарантию окупаемости по договору </p>
+                        </div>
+                        <div class="advatages_block_contract">
+                            <h2 class="advatages_block_contract-text">Образец договора</h2>
+                            <img class="advatages_block_contract-img" src="./img/doc1.png" alt="">
+                            <img class="advatages_block_contract-img position" src="./img/ry1.png" alt="">
+                            <form class="presentation_button">
+                                <button
+                                class="consultation  advatages_block_contract_button animate">Скачать
+                                договор</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="advatages_block_application">
+                        <h3 class="advatages_block_application-text">ПАУШАЛЬНЫЙ ВЗНОС: <span class="gold1"> 350 000</span> рублей</h3>
+                        <form class="presentation_button">
+                            <button
+                            class="consultation  advatages_block_application_button animate">Оставить заявку</button>
+                        </form>
+                    </div>
+                </section>
+                <section class="founder">
+                    <div class="founder__block_carousel">
+                        <img class="founder__block-img" src="/img/osnov.png" alt="Основатель">
+                        <div class="fouder__block-text">
+                            <div class="fouder__block-text-mar">
+                            <p class="fouder__block-paragraph-1">Основатель компании</p>
+                            <h3 class="fouder__block-item">Князев Александр Николаевич</h3>
+                            <p class="fouder__block-paragraph">Рад приветствовать вас на нашем сайте!</p>
+                            <p class="fouder__block-paragraph">Пару слов о том, почему государственные закупки...</p>
+                            <p class="fouder__block-paragraph">Работа с госзаказами - это лучшая возможность начать быстро зарабатывать достойные деньги с минимальными рисками!</p>
+                            <p class="fouder__block-paragraph">В нашей команде "ПРОтендер" работают практикующие эксперты, которые “за руку" проведут вас по всем этапам работы с государственными заказами, поделятся с вами опытом и доведут вас до результата.</p>
+                            <p class="fouder__block-paragraph">Нам выгодно, когда вы зарабатываете! И зарабатываете много... Главное, помните, что <span class="fouder_block-paragraph-item">УСПЕХ ПРИХОДИТ К ТЕМ, КТО ДЕЙСТВУЕТ!</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="founder__block_carousel founder__block_carousel-mobil">
+                        <div class="fouder__block-text carousel">
+                            <div class="fouder__block-text-mar">
+                            <p class="fouder__block-paragraph-1">Основатель компании</p>
+                            <h3 class="fouder__block-item">Князев Александр Николаевич</h3>
+                            <p class="fouder__block-paragraph">Опыт работы с государственными закупками</p>
+                            <p class="fouder__block-paragraph">с 2007 года.</p>
+                            <p class="fouder__block-paragraph">7 лет работал в Федеральном органе исполнительной власти на должности начальника отдела реализации Федеральных целевых программ. Принимал участие в разработке ряда Государственных и межгосударственных программ</p>
+                            <p class="fouder__block-paragraph">С 2014 года успешный опыт реализации коммерческих проектов (заключил более 1000 контрактов на сумму свыше 1 млрд рублей) в различных областях со следующими заказчиками: Министерство обороны Российской Федерация, МВД России, МЧС России, МИД России, ФСИН России, Росрезерв, Правительство Москвы, Правительство Московской области, Росатом, РЖД, ПАО “Роснефть”, ПАО “Транснефть”, а также другими Государственными заказчиками</span></p>
+                            </div>
+                        </div>
+                        <img class="founder__block_carousel-img" src="./img/osnov2.png" alt="">
+                    </div>
+                </section>
+                <section class="contacts">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.8509863495015!2d39.72742351585807!3d43.60964417912293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5cb8cdfac559d%3A0xb0cd7091228a3d7!2z0YPQuy4g0JPQsNCz0LDRgNC40L3QsCwgNzIsIDI5LCDQodC-0YfQuCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1NDA2OA!5e0!3m2!1sru!2sru!4v1619263065933!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="contacts__block">
+                        <h3 class="contacts__block-h">Наши контакты </h3>
+                        <div class="contacts__block_wrap">
+                            <div class="contacts__block-img">
+                                <img class="contacts__block-img-1" src="/img/vec1.svg" alt="">
+                                <img class="contacts__block-img-1" src="/img/vec1.svg" alt="">
+                                <img class="contacts__block-img-1" src="/img/vec3.svg" alt="">
+                                <img class="contacts__block-img-1" src="/img/vec4.svg" alt="">
+                            </div>
+                            <div class="contacts__block-text">
+                                <ul>
+                                    <li class="contacts__block-text-link"><a href="https://goo.gl/maps/Nj1uTvZtgkUHJ3gr7">г. Сочи, ул. Гагарина 72, офис 29.</a></li>
+                                    <li class="contacts__block-text-link"><a href="tel:88002011629">8 800 201 16 29</a></li>
+                                    <li class="contacts__block-text-link"><a href="mailto:protender93@mail.ru">protender93@mail.ru </a></li>
+                                    <li>Понедельник-Пятница (9:00-18:00)</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        <div class="contacts__block-mess">
+                            <a href="#"><img class="contacts__block-mess-item" src="/img/teleg.svg" alt=""></a>
+                            <a href="#"><img class="contacts__block-mess-item" src="/img/whats.svg" alt=""></a>
+                            <a href="#"><img src="/img/vaber.svg" alt=""></a>
+                        </div>
+                    </div>
                 </section>
                 <section class="advantages">
                     <h2 class="advantages_text">Что вы получите с франшизой?</h2>
@@ -357,6 +521,36 @@
                 </section>
             </main>
         </div>
+        <footer class="footer">
+            <div class="footer__wrap">
+                <div class="footer__logo">
+                    <img src="/img/logofooter.png" alt="">
+                    <ul class="footer__logo-list">
+                        <li>ООО “ПРОтендер”</li>
+                        <li>ИНН  2366017264</li>
+                        <li>КПП  236601001</li>
+                        <li>ОГРН  1192375076013</li>
+                    </ul>
+                </div>
+                <nav class="nav nav-mobil">
+                    <ul class="nav__list footer__nav">
+                        <li class="footer__nav-link"><a class="nav__list-link" href="#">Главная</a></li>
+                        <li class="footer__nav-link"><a class="nav__list-link" href="#">О компании</a></li>
+                        <li class="footer__nav-link"><a class="nav__list-link" href="#">Госзакупки</a></li>
+                        <li class="footer__nav-link"><a class="nav__list-link" href="#">Франшиза</a></li>
+                        <li class="footer__nav-link"><a class="nav__list-link" href="#">Наша команда</a></li>
+                        <li><a class="nav__list-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__konf">
+                    <ul class="footer__konf-list">
+                        <li class="footer__konf-item">Образец договора</li>
+                        <li class="footer__konf-item">Презентация франшизы</li>
+                    </ul>
+                    <a class="footer__konf-link" href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
     </div>
     <script type="text/javascript" src="index.js"></script>
 </body>
