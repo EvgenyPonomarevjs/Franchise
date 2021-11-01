@@ -40,6 +40,17 @@
     margin-top: 16px;
     color: #ffffff;   
 }
+.header__tel-link:hover {
+    color: #101256;
+}
+.header__tel:hover {
+  background-color: #ffd174;
+   pointer-events: none;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Caveat-Regular";
+  
+}
 .nav li a:before {
     content: '';
     width: 100%;
